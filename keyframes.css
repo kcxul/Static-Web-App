@@ -6,3 +6,27 @@
         transform: translateX(-100%);
     }
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(5%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+
+.intro, .banner, .careers {
+    animation: fadeIn 0.3s ease-in-out, slideUp 0.5s ease-out;
+}

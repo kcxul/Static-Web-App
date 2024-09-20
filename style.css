@@ -85,7 +85,7 @@ header {
 
 .banner-block {
     text-align: center;
-	padding: 0px;
+	padding: 20px;
 }
 
 .career-page .banner-block {
@@ -104,8 +104,8 @@ header {
     color: #222222;
 }
 
-.careers .banner-block {
-	width: 50%;
+.career-page .banner {
+	height: 700px;
 }
 
 /* Careers */
