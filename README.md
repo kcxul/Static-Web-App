@@ -6,9 +6,22 @@ This repository was created for a class assignment utilizing HTML and CSS to cre
 
 Download the zip file or clone the [repository](https://github.com/kcxul/Static-Web-App.git).
 
-```bash
+```sh
 git clone https://github.com/kcxul/Static-Web-App.git
 ```
+
+## Optional: Preview the Website with Live Server
+
+1. Install the Live Server extension in VS Code:
+    - Go to the Extensions view by clicking on the Extensions icon in the Sidebar or pressing `Ctrl+Shift+X`.
+    - Search for "Live Server" and click "Install".
+
+2. Open the project folder in VS Code.
+
+3. Right-click on the `index.html` file and select "Open with Live Server".
+
+4. Your default web browser will open and display the website. Any changes you make to the HTML, CSS, or JavaScript files will automatically refresh the browser.
+
 ## Preview 
 
 https://github.com/user-attachments/assets/cde10e3e-bcfb-488c-a98f-178a0668b4c5
