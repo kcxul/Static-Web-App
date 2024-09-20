@@ -1,6 +1,6 @@
 # Static Web App
 
-This repository was created for a class assignment utilizing HTML and CSS to create a static web application. There are still things to do such as add media queries and redesign the website to be responsive to both desktop and mobile devices. 
+This repository was created for a class assignment utilizing HTML and CSS to create a static web application. Updated with media queries to be more responsive with both desktop and mobile devices.
 
 ## Installation
 

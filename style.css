@@ -1,49 +1,51 @@
 @import url("keyframes.css");
 
 /* General Styles */
-body, html {
+body,
+html {
 	background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: Arial, sans-serif;
 	width: 100%;
 
 }
+
 /* Logo */
 
 .logo {
-    height: 200px;
+	height: 200px;
 	filter: invert(100%);
 }
 
 .logo-2 {
-    height: 300px;
+	height: 300px;
 	mix-blend-mode: multiply;
 }
 
 /* Header */
 header {
-    background-color: black;
-    color: white;
-    padding: 10px 0;
+	background-color: black;
+	color: white;
+	padding: 10px 0;
 	text-align: center;
 	display: block;
 	width: 100%;
 }
 
 .topnav nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    display: inline-block;
-	
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	display: inline-block;
+
 }
 
 /* Main Container */
 .main-container {
-	display: block;
-    padding: 20px;
+	display: flexbox;
+	padding: 20px;
 }
 
 .main-content {
@@ -57,51 +59,55 @@ header {
 
 /* Landing */
 .landing {
-    position: relative;
-    text-align: center;
-    color: white;
+	position: relative;
+	text-align: center;
+	color: white;
 }
 
 .intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 500px;
-    width: 80%;
-    margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 
 /* Banner */
 
 .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 80%;
-    margin: 0 auto;
-	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .banner-block {
-    text-align: center;
-	padding: 20px;
+	text-align: center;
+	padding: 0px;
 }
 
-.career-page .banner-block {
-    text-align: center;
+.career-page .banner-block-2 {
+	justify-content: center;
+	text-align: center;
 	width: 40%;
-	padding: 0px;
 }
 
 .banner-block h1 {
 	text-transform: uppercase;
-    padding: 0px;
+	padding: 0px;
 	margin: 50px;
-    font-size: 8em;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #222222;
+	font-size: 8em;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #222222;
+}
+
+.banner-block p {
+	font-size: 1.2em;
+	margin: 20px 0;
 }
 
 .career-page .banner {
@@ -110,127 +116,128 @@ header {
 
 /* Careers */
 .careers {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 30%;
-	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	width: 80%;
 	margin: 0 auto;
 }
 
 .career {
-    margin-bottom: 40px; /* Add space between career listings */
+	margin-bottom: 40px;
+	/* Add space between career listings */
 }
 
 .career h2 {
 	text-align: center;
-    font-size: 2em;
-    color: #000000;
-    margin-bottom: 10px;
+	font-size: 2em;
+	color: #000000;
+	margin-bottom: 10px;
 }
 
 .career p {
-    font-size: 1em;
-    color: #000000;
-    line-height: 1.6;
+	font-size: 1em;
+	color: #000000;
+	line-height: 1.6;
+}
+
+.apply-section {
+	display: flex;
+	justify-content: center;
 }
 
 .apply {
-    margin-top: 40px;
-    text-align: left;
+	justify-content: center;
+	margin-top: 40px;
+	width: 80%;
+	text-align: center;
 }
 
 .apply p {
-    font-size: 1em;
-    color: #000000;
-    line-height: 1.6;
+	font-size: 1em;
+	color: #000000;
+	line-height: 1.6;
 }
 
 .apply h1 {
 	text-align: center;
-    font-size: 2em;
-    color: #000000;
-    margin-bottom: 10px;
+	font-size: 2em;
+	color: #000000;
+	margin-bottom: 10px;
 }
 
 .apply a {
-    color: #0000EE;
-    text-decoration: none;
+	color: #0000EE;
+	text-decoration: none;
 }
 
 .apply a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* Search Bar */
 .search-bar {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .search-bar input[type="text"] {
-    padding: 10px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    width: 200px;
+	padding: 10px;
+	font-size: 1em;
+	border: none;
+	border-radius: 5px 0 0 5px;
+	width: 200px;
 	outline: none;
 }
 
 .search-bar button {
-    padding: 10px;
-    font-size: 1em;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    background-color: #000000;
-    color: white;
-    cursor: pointer;
+	padding: 10px;
+	font-size: 1em;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	background-color: #000000;
+	color: white;
+	cursor: pointer;
 }
 
 .search-bar button:hover {
-    background-color: #555;
+	background-color: #555;
 }
 
 /* Photographer */
 .photographer {
     display: grid;
-    gap: 20px;
-    align-items: center;
-    padding: 50px 0;
-    margin-top: 20px;
-    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+	margin-bottom: 5rem;
 }
 
-.photographer img {
-    width: 200px;
-    height: auto;
-    justify-self: center;
-}
 
 .photographer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .photographer h1 {
 	text-transform: uppercase;
-    font-size: 3em;
-    color: #000000;
-    margin: 10px 0;
+	font-size: 3em;
+	color: #000000;
+	margin: 10px 0;
 }
 
 .photographer h2 {
-    font-size: 2em;
-    color: #000000;
-    margin: 10px 0;
+	font-size: 2em;
+	color: #000000;
+	margin: 2px 0;
 }
 
 .photographer p {
-    font-size: 1em;
-    color: #000000;
-    margin: 10px 0;
+	font-size: 1em;
+	color: #000000;
+	margin: 0px 0;
 }
 
 /* Text Block */
@@ -239,31 +246,40 @@ header {
 	display: block;
 	justify-content: center;
 	align-items: center;
-    width: 1000px;
+	width: 1000px;
 }
 
 
 .text-block h1 {
-    font-size: 3em;
+	font-size: 3em;
 	text-align: center;
 	letter-spacing: 0px;
-    color: #000000;
+	color: #000000;
 }
 
 .text-block h3 {
-    font-size: 1em;
+	font-size: 1em;
 	text-align: center;
 	letter-spacing: 0px;
-    color: #000000;
+	color: #000000;
+}
+
+.about-page .text-header {
+	font-size: 1em;
+	text-transform: none;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #000000;
 }
 
 .text-header {
-    font-size: 2em;
+	font-size: 2em;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 0px;
-    color: #000000;
+	color: #000000;
 }
+
 .text-block p {
 	font-size: 1em;
 	text-align: center;
@@ -272,21 +288,37 @@ header {
 
 /* Photo Grid */
 .photo-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    padding: 0px;
-    overflow-x: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	padding: 0px;
+	overflow-x: auto;
 	max-width: 100%;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
 }
 
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+.grid-container, .grid-container-3x3 {
+    display: grid;
+    gap: 10px;
+}
 
 .grid-container {
-    display: flex;
-    width: max-content; 
+	display: flex;
+	width: max-content;
+}
+
+.grid-container-3x3 {
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .home-page .grid-container {
@@ -294,45 +326,148 @@ header {
 }
 
 .grid-item {
-    flex: 0 0 calc(100% / 3); 
-    min-width: calc(100% / 3); 
+	flex: 0 0 calc(100% / 3);
+	min-width: calc(100% / 3);
 }
 
+.grid-item-3x3 {
+    margin: 0px;
+}
+
+
 .grid-item img {
-    width: 100%;
-    height: auto;
-    display: block;
+	width: 100%;
+	height: auto;
+	display: block;
 	padding: 0px;
+}
+
+.grid-item-3x3 img {
+	width: 100%;
+    height: auto;
 }
 
 /* Book Now Button */
 .book-now-container {
-    text-align: center;
-    margin-bottom: 100px;
+	text-align: center;
+	margin-bottom: 100px;
 }
 
 .book-now-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
 }
 
 .book-now-button:hover {
-    background-color: #555;
+	background-color: #555;
 }
 
 /* Footer */
 footer {
-    background-color: #000000;
-    color: #f0f0f0;
-    text-align: center;
-    padding: 100px 0;
-    position: relative;
-    width: 100%;
+	background-color: #000000;
+	color: #f0f0f0;
+	text-align: center;
+	padding: 100px 0;
+	position: relative;
+	width: 100%;
 	font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+	.banner-block h1 {
+		font-size: 6em;
+	}
+
+	.career-page .banner {
+		height: 600px;
+	}
+
+	.careers {
+		width: 40%;
+	}
+}
+
+@media (max-width: 992px) {
+	.banner-block h1 {
+		font-size: 4em;
+	}
+
+	.career-page .banner {
+		height: 500px;
+	}
+
+	.careers {
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.banner-block h1 {
+		font-size: 3em;
+	}
+
+	.career-page .banner {
+		height: 400px;
+	}
+
+	.careers {
+		width: 60%;
+	}
+
+	.grid-container-3x3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+	.photographer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+	.banner-block h1 {
+		font-size: 2em;
+	}
+
+	.career-page .banner {
+		height: 400px;
+		margin-bottom: 5rem;
+	}
+
+	.grid-item {
+		flex: 0 0 calc(100% / 1);
+		min-width: calc(100% / 1);
+		
+	}
+
+	.careers {
+		margin-top: 5rem;
+		display: grid;
+		grid-template-columns: 1fr;
+		width: 100%;
+	}
+
+	.banner-block p {
+		font-size: .8rem;
+		margin: 10px 0;
+		width: 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+
+	.grid-container-3x3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+	.photographer {
+		margin-top: 30px;
+		display: grid;
+        grid-template-columns: repeat(3, 1fr);
+		font-size: x-small;
+    }
 }
