@@ -24,7 +24,13 @@ git clone https://github.com/kcxul/Static-Web-App.git
 
 ## Preview 
 
-https://github.com/user-attachments/assets/cde10e3e-bcfb-488c-a98f-178a0668b4c5
+https://github.com/user-attachments/assets/a5a97bb1-bd81-4cb5-ad21-42f1c9f9b964
+
+![alt text](https://github.com/kcxul/Static-Web-App/blob/main/images/Home.png)
+![alt text](https://github.com/kcxul/Static-Web-App/blob/main/images/About.png)
+![alt text](https://github.com/kcxul/Static-Web-App/blob/main/images/Careers.png)
+
+
 
 ## Credits
 - Omar Salah // @omarmaliksalah https://www.instagram.com/omarmaliksalah/ (Photographer)
