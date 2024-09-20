@@ -7,14 +7,19 @@ body, html {
     padding: 0;
     box-sizing: border-box;
 	font-family: Arial, sans-serif;
+	width: 100%;
 
 }
-
 /* Logo */
 
 .logo {
     height: 200px;
 	filter: invert(100%);
+}
+
+.logo-2 {
+    height: 300px;
+	mix-blend-mode: multiply;
 }
 
 /* Header */
@@ -24,6 +29,7 @@ header {
     padding: 10px 0;
 	text-align: center;
 	display: block;
+	width: 100%;
 }
 
 .topnav nav a {
@@ -82,6 +88,12 @@ header {
 	padding: 0px;
 }
 
+.career-page .banner-block {
+    text-align: center;
+	width: 40%;
+	padding: 0px;
+}
+
 .banner-block h1 {
 	text-transform: uppercase;
     padding: 0px;
@@ -90,6 +102,65 @@ header {
     text-align: center;
     letter-spacing: 0px;
     color: #222222;
+}
+
+.careers .banner-block {
+	width: 50%;
+}
+
+/* Careers */
+.careers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 30%;
+	
+	margin: 0 auto;
+}
+
+.career {
+    margin-bottom: 40px; /* Add space between career listings */
+}
+
+.career h2 {
+	text-align: center;
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.career p {
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.apply {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.apply p {
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.apply h1 {
+	text-align: center;
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.apply a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.apply a:hover {
+    text-decoration: underline;
 }
 
 /* Search Bar */
@@ -212,9 +283,14 @@ header {
 	-ms-overflow-style: none;
 }
 
+
 .grid-container {
     display: flex;
     width: max-content; 
+}
+
+.home-page .grid-container {
+	animation: scroll 120s linear infinite;
 }
 
 .grid-item {
@@ -232,7 +308,7 @@ header {
 /* Book Now Button */
 .book-now-container {
     text-align: center;
-    margin: 100px 0;
+    margin-bottom: 100px;
 }
 
 .book-now-button {

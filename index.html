@@ -3,15 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="home-page">
 	<header>
 		<div class="container">
 			<div class="topnav">
-				<img src="images/logo.png" alt="Fotos De Film Logo" class="logo">
 				<nav>
 					<a href="index.html">Home</a>
 					<a href="about.html">About</a>
@@ -20,25 +19,26 @@
 			</div>
 		</div>
 	</header>
+	<section class="banner">
+		<div class="banner-block">
+			<h1>FOTOS DE FILM</h1>
+			<p class="text-block">At Fotos De Film, we are passionate about creating unforgettable visual stories
+				through our high-quality photography services. Our team of professional photographers is dedicated
+				to capturing the essence of every moment with precision and artistry. We pride ourselves on using
+				state-of-the-art equipment and innovative techniques to deliver images that exceed expectations.
+				Whether it's freezing a fleeting moment at a special event, unveiling the unique personality in a
+				portrait, or showcasing the essence of a brand, we approach each project with creativity and a
+				relentless pursuit of excellence. Our commitment to quality and customer satisfaction is at the
+				heart of everything we do, and we are excited about the opportunity to bring your vision to life
+				through our exceptional photography services.</p>
+		</div>	
+	</section>
 	<div class="main-container">
-		<section class="banner">
-			<div class="banner-block">
-				<h1>Fotos De Film</h1>
-				<p class="text-block">Fotos De Film is an agency dedicated to providing high-quality, professional, and
-					clean photos. Our team of professional photographers utilizes the best equipment and lighting to
-					ensure that we meet and exceed our customers' expectations. Whether it's capturing special moments
-					at events, creating stunning portraits, or excelling in any style of photography, we take pride in
-					delivering top-notch photography services. Our commitment to quality and customer satisfaction sets
-					us apart in the industry, and we look forward to capturing beautiful moments for our clients.</p>
-			</div>
-		</section>
-		<div class="search-bar">
-			<input type="text" placeholder="Search By Style">
-			<button type="submit"></i> Search</button>
-		</div>
 		<section class=main-content>
 			<section class="landing">
-				<div class="text-header">
+				<div class="search-bar">
+					<input type="text" placeholder="Search By Style">
+					<button type="submit"></i> Search</button>
 				</div>
 			</section>
 			<section class="photo-grid">
@@ -56,12 +56,15 @@
 				</div>
 			</section>
 		</section>
+		<div class="text-header">
+			<img src="images/logo.png" alt="Fotos De Film Logo" class="logo-2">
+		</div>
 		<div class="book-now-container">
 			<a href="mailto:info@fotosdefilm.com?subject=Booking%20Inquiry" class="book-now-button">Book Now</a>
 		</div>
 	</div>
 	<footer>
-		<img src="images/logo.png" alt="Fotos De Film Logo" class="logo">
+		<h1> Fotos De Film</h1>
 		<p>&copy; <span id="current-year"></span> Fotos De Film. All rights reserved.</p>
 		<p id="current-date-time"></p>
 	</footer>
